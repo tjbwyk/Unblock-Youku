@@ -56,7 +56,6 @@ unblock_youku.header_urls = [
     'http://www.bilibili.com/*',
     'http://interface.bilibili.com/*',
     'http://bangumi.bilibili.com/*',
-    'http://cn-sh-ix-acache-*.acgvideo.com/*',
     'https://pstream.api.mgtv.com/*',
     'http://kandian.com/player/getEpgInfo*',
     'http://u.y.qq.com/cgi-bin/*',
