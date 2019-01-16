@@ -53,7 +53,7 @@ unblock_youku.header_urls = [
     'http://*.ssports.com/*',
     'http://ssports.com/*',
     'http://ssports.smgbb.cn/*',
-    // 'http://www.bilibili.com/*',
+    'http://www.bilibili.com/*',
     // 'http://interface.bilibili.com/*',
     // 'http://bangumi.bilibili.com/*',
     'https://pstream.api.mgtv.com/*',
