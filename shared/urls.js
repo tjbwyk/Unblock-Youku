@@ -53,9 +53,10 @@ unblock_youku.header_urls = [
     'http://*.ssports.com/*',
     'http://ssports.com/*',
     'http://ssports.smgbb.cn/*',
-    // 'http://www.bilibili.com/*',
-    // 'http://interface.bilibili.com/*',
-    // 'http://bangumi.bilibili.com/*',
+    'http://www.bilibili.com/*',
+    'http://interface.bilibili.com/*',
+    'http://bangumi.bilibili.com/*',
+    'http://cn-sh-ix-acache-*.acgvideo.com/*',
     'https://pstream.api.mgtv.com/*',
     'http://kandian.com/player/getEpgInfo*',
     'http://u.y.qq.com/cgi-bin/*',
@@ -134,8 +135,8 @@ unblock_youku.redirect_urls = [
 
     'http://api.appsdk.soku.com/*',
 
-    // 'http://app.bilibili.com/bangumi/*',
-    // 'http://bangumi.bilibili.com/*',
+    'http://app.bilibili.com/bangumi/*',
+    'http://bangumi.bilibili.com/*',
 
     'http://122.72.82.31/*',
     'http://211.151.158.155/*',
@@ -254,14 +255,14 @@ unblock_youku.chrome_proxy_urls = unblock_youku.redirect_urls.concat([
     "http://live.api.hunantv.com/pc/getSourceById*",
     "http://mobile.api.hunantv.com/*",
     'http://www.qie.tv/*',
-    // 'http://www.bilibili.com/video/*',
-    // 'https://www.bilibili.com/*',
-    // 'http://api.bilibili.com/*',
-    // 'https://api.bilibili.com/*',
-    // 'http://interface.bilibili.com/*',
-    // 'https://interface.bilibili.com/*',
-    // 'http://bangumi.bilibili.com/api/*',
-    // 'https://bangumi.bilibili.com/*',
+    'http://www.bilibili.com/video/*',
+    'https://www.bilibili.com/*',
+    'http://api.bilibili.com/*',
+    'https://api.bilibili.com/*',
+    'http://interface.bilibili.com/*',
+    'https://interface.bilibili.com/*',
+    'http://bangumi.bilibili.com/api/*',
+    'https://bangumi.bilibili.com/*',
     // 'http://live-play.acgvideo.com/live/*',
     'http://m10.music.126.net/*', //for the testing of netease music
 
@@ -368,7 +369,7 @@ unblock_youku.chrome_proxy_urls = unblock_youku.redirect_urls.concat([
 
 // These URLs will not go through proxy servers (for our Chrome extension).
 unblock_youku.chrome_proxy_bypass_urls = [
-    // 'http://bangumi.bilibili.com/index/ding-count.json',
+    'http://bangumi.bilibili.com/index/ding-count.json',
 ];
 
 
@@ -421,9 +422,9 @@ unblock_youku.pac_proxy_urls = unblock_youku.chrome_proxy_urls.concat(unblock_yo
     // 'http://vdn.live.cntv.cn/api2/live.do?channel=pa://cctv_p2p_hdcctv8*',
     // 'http://vdn.live.cntv.cn/api2/live.do?channel=pa://cctv_p2p_hdbtv6*',
     'http://vdn.live.cntv.cn/*',
-    // 'http://app.bilibili.com/*',
-    // 'https://app.bilibili.com/*',
-    // 'http://bangumi.bilibili.com/api/*',
+    'http://app.bilibili.com/*',
+    'https://app.bilibili.com/*',
+    'http://bangumi.bilibili.com/api/*',
 
 
     // Music apps
